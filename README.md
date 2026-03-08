@@ -1,14 +1,14 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/tolingcode/tolingcode/main/docs/logo.png" width="120" alt="TolingCode Logo">
 </p>
-
+![Banner](https://raw.githubusercontent.com/tolingcode/tolingcode/main/docs/banner.png)
 ![npm](https://img.shields.io/npm/v/tolingcode)
 ![downloads](https://img.shields.io/npm/dm/tolingcode)
 ![license](https://img.shields.io/badge/license-MIT-green)
 
 # TolingCode CLI
 
-**跨境电商私人 AI 助手** - 在个人设备上运行的本地化 AI 自动化工具
+**跨境电商私人 AI 助手** - 在个人设备上运行的本地化 AI 自动化工具 , tolingcode  Skills完全兼容openclaw。
 
 为跨境卖家提供订单履约、库存管理、产品刊登、广告管理、数据分析等核心业务能力。
 

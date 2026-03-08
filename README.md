@@ -21,10 +21,10 @@
 npm install -g tolingcode@latest
 
 # 安装指定版本
-npm install -g tolingcode@2026.03.08
+npm install -g tolingcode@2026.03.09
 ```
 
-**当前版本**: 2026.03.08
+**当前版本**: 2026.03.09
 
 ---
 
@@ -101,7 +101,7 @@ tolingcode search weather
 tolingcode publish ./my-skill \
   --type skills \
   --name my-skill \
-  --version 2026.03.08
+  --version 2026.03.09
 ```
 
 ### 版本规范

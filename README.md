@@ -1,8 +1,9 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tolingcode/tolingcode/main/docs/logo.png" alt="TolingCode Logo">
+</p>
 ![TolingCode Banner](https://raw.githubusercontent.com/tolingcode/tolingcode/main/docs/banner.png)
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/tolingcode/tolingcode/main/docs/logo.png" width="120" alt="TolingCode Logo">
-</p>
+
 
 ![npm](https://img.shields.io/npm/v/tolingcode)
 ![downloads](https://img.shields.io/npm/dm/tolingcode)
@@ -26,14 +27,14 @@ Agent**，用于构建跨境企业 **AI 数字员工**。
 
 # 核心特点
 
-  特性         说明
-  ------------ -------------------------------
-  本地运行     AI 在个人设备运行，不依赖云端
-  永不离线     本地模型可持续运行
-  响应迅速     避免云端延迟
-  数据本地化   API 数据可同步到本地数据库
-  AI 员工      自动执行跨境电商任务
-  Skill 生态   支持安装技能扩展能力
+| 特性 | 说明 |
+|------|------|
+| 本地运行 | AI 在个人设备运行，不依赖云端 |
+| 永不离线 | 本地模型可持续运行 |
+| 响应迅速 | 避免云端延迟 |
+| 数据本地化 | API 数据可同步到本地数据库 |
+| AI 员工 | 自动执行跨境电商任务 |
+| Skill 生态 | 支持安装技能扩展能力 |
 
 ------------------------------------------------------------------------
 

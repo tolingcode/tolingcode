@@ -1,7 +1,7 @@
-![TolingCode Banner](https://raw.githubusercontent.com/hanbaojun2023-debug/tolingcode/main/docs/banner.png)
+![TolingCode Banner](https://raw.githubusercontent.com/tolingcode/tolingcode/main/docs/banner.png)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hanbaojun2023-debug/tolingcode/main/docs/logo.png" width="120" alt="TolingCode Logo">
+  <img src="https://raw.githubusercontent.com/tolingcode/tolingcode/main/docs/logo.png" width="120" alt="TolingCode Logo">
 </p>
 
 ![npm](https://img.shields.io/npm/v/tolingcode)

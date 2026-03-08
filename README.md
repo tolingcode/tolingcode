@@ -1,15 +1,16 @@
-![TolingCode Banner](https://raw.githubusercontent.com/hanbaojun2023-debug/tolingcode/master/docs/banner.png)
+![TolingCode Banner](https://raw.githubusercontent.com/hanbaojun2023-debug/tolingcode/main/docs/banner.png)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hanbaojun2023-debug/tolingcode/main/docs/logo.png" width="120" alt="TolingCode Logo">
+</p>
+
 ![npm](https://img.shields.io/npm/v/tolingcode)
 ![downloads](https://img.shields.io/npm/dm/tolingcode)
 ![license](https://img.shields.io/badge/license-MIT-green)
 ![node](https://img.shields.io/badge/node-%3E=18-blue)
 ![platform](https://img.shields.io/badge/platform-cross--border-orange)
 
-![TolingCode Banner](docs/banner.png)
-
-<p align="center">
-  <img src="docs/logo.png" width="120" alt="TolingCode Logo">
-</p>
+ 
 
 # TolingCode CLI
 
@@ -34,6 +35,19 @@ Agent**，用于构建跨境企业 **AI 数字员工**。
   AI 员工      自动执行跨境电商任务
   Skill 生态   支持安装技能扩展能力
 
+------------------------------------------------------------------------
+
+# 安装
+ 
+``` bash
+当前最新版本:2026.03.08
+
+安装最新版本
+npm install -g tolingcode@latest
+
+安装指定版本
+npm install -g tolingcode@2026.03.06
+```
 ------------------------------------------------------------------------
 
 # 核心能力
@@ -84,25 +98,6 @@ Agent**，用于构建跨境企业 **AI 数字员工**。
 -   Amazon Logistics
 -   ITTRACK
 
-------------------------------------------------------------------------
-
-# 安装
-
-## 安装最新版本
-
-``` bash
-npm install -g tolingcode@latest
-```
-
-## 安装指定版本
-
-``` bash
-npm install -g tolingcode@2026.03.06
-```
-
-当前最新版本：
-
-    2026.03.08
 
 ------------------------------------------------------------------------
 

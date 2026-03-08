@@ -1,6 +1,6 @@
 {
   "name": "tolingcode",
-  "version": "2026.03.811",
+  "version": "2026.03.08-3",
   "description": "TolingCode CLI - Install skills and apps from toling.me",
   "main": "bin/tolingcode.js",
   "files": [

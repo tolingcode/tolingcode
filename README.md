@@ -1,7 +1,11 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/tolingcode/tolingcode/main/docs/logo.png" width="120" alt="TolingCode Logo">
 </p>
-![Banner](https://raw.githubusercontent.com/tolingcode/tolingcode/main/docs/banner.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tolingcode/tolingcode/main/docs/banner.png"  alt="TolingCode banner">
+</p>
+ 
+
 ![npm](https://img.shields.io/npm/v/tolingcode)
 ![downloads](https://img.shields.io/npm/dm/tolingcode)
 ![license](https://img.shields.io/badge/license-MIT-green)

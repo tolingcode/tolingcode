@@ -60,6 +60,40 @@ tolingcode install skills hbj-ai-shell
 
 ---
 
+## 跨平台支持
+
+✅ **完全支持**: Windows / Linux / macOS
+
+### 路径说明
+
+| 系统 | OpenClaw 工作目录 | 全局应用目录 |
+|------|------------------|-------------|
+| **Windows** | `C:\Users\<用户名>\.openclaw\workspace` | `%APPDATA%\tolingcode\apps` |
+| **Linux** | `/home/<用户名>/.openclaw/workspace` | `~/.local/tolingcode/apps` |
+| **macOS** | `/Users/<用户名>/.openclaw/workspace` | `~/.local/tolingcode/apps` |
+
+### 自定义工作目录
+
+```bash
+# 通过环境变量自定义 OpenClaw 工作目录
+# Windows
+set OPENCLAW_WORKSPACE=D:\my-workspace
+
+# Linux/Mac
+export OPENCLAW_WORKSPACE=/path/to/my-workspace
+
+# 然后安装技能
+tolingcode install skills gigacloud-warehouse
+```
+
+### 系统要求
+
+- **Node.js**: >= 16.0.0
+- **npm**: >= 7.0.0
+- **OpenClaw**: 自动安装（通过 `tolingcode install openclaw`）
+
+---
+
 ## 命令参考
 
 ### 安装命令

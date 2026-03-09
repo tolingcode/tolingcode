@@ -177,14 +177,21 @@ program
       console.log(chalk.gray(`  Description: ${pkg.description}`));
       console.log(chalk.gray(`  Download URL: ${pkg.downloadUrl}`));
       
-      // Determine install path
+      // Determine install path (cross-platform)
       let installPath;
       if (type === 'skills') {
-        const workspace = process.env.OPENCLAW_WORKSPACE || path.join(process.env.HOME || process.env.USERPROFILE, '.openclaw', 'workspace');
+        // OpenClaw workspace path (cross-platform)
+        const homeDir = process.env.HOME || process.env.USERPROFILE || require('os').homedir();
+        const workspace = process.env.OPENCLAW_WORKSPACE || path.join(homeDir, '.openclaw', 'workspace');
         installPath = path.join(workspace, 'skills');
+        console.log(chalk.gray(`   安装路径：${installPath}`));
       } else if (type === 'apps') {
         if (options.global) {
-          installPath = path.join(process.env.APPDATA || path.join(process.env.HOME || '', '.local'), 'tolingcode', 'apps');
+          const homeDir = process.env.HOME || process.env.USERPROFILE || require('os').homedir();
+          // Cross-platform: Windows uses APPDATA, Linux/Mac uses ~/.local
+          installPath = process.env.APPDATA 
+            ? path.join(process.env.APPDATA, 'tolingcode', 'apps')  // Windows
+            : path.join(homeDir, '.local', 'tolingcode', 'apps');  // Linux/Mac
         } else {
           installPath = path.join(process.cwd(), 'tolingcode-apps');
         }

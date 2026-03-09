@@ -1,0 +1,41 @@
+{
+  "skills": {
+    "gigacloud-warehouse": {
+      "name": "gigacloud-warehouse",
+      "displayName": "大健云仓",
+      "description": "大健云仓跨境电商 B2B 分销平台操作技能 - 产品获取、图片处理、订单推送",
+      "author": "TolingCode",
+      "license": "MIT",
+      "keywords": [
+        "gigacloud",
+        "warehouse",
+        "dropship",
+        "ecommerce",
+        "跨境电商",
+        "B2B",
+        "分销"
+      ],
+      "category": "ecommerce",
+      "latestVersion": "2026.03.08",
+      "versions": {
+        "2026.03.08": {
+          "publishedAt": "2026-03-08T04:38:49.392Z",
+          "hash": "sha256:dd047ccd1ad4e8af295b93ac8d0b92ae4febcdbfc9729300d48fbc9fa5a04853",
+          "size": 20894,
+          "tarball": "gigacloud-warehouse-2026.03.08.tar.gz",
+          "main": "index.js",
+          "dependencies": {
+            "axios": "^1.6.0"
+          }
+        }
+      },
+      "repository": {
+        "type": "git",
+        "url": "https://github.com/tolingcode/tolingcode",
+        "directory": "skills/gigacloud-warehouse"
+      },
+      "downloadUrl": "http://localhost:3000/packages/skills/gigacloud-warehouse-2026.03.08.tar.gz"
+    }
+  },
+  "apps": {}
+}

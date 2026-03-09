@@ -11,9 +11,10 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Paths
-const BASE_DIR = process.env.REGISTRY_BASE_DIR || '/var/www/toling.me';
-const REGISTRY_FILE = path.join(BASE_DIR, 'registry.json');
-const PACKAGES_DIR = path.join(BASE_DIR, 'packages');
+const BASE_DIR = process.env.REGISTRY_BASE_DIR || path.join(__dirname, '..');
+const DATA_DIR = path.join(BASE_DIR, 'registry', 'data');
+const REGISTRY_FILE = path.join(DATA_DIR, 'registry.json');
+const PACKAGES_DIR = path.join(BASE_DIR, 'registry', 'packages');
 
 // Ensure directories exist
 if (!fs.existsSync(PACKAGES_DIR)) {
@@ -28,6 +29,7 @@ if (!fs.existsSync(REGISTRY_FILE)) {
 
 // Middleware
 app.use(express.json());
+app.use('/packages', express.static(PACKAGES_DIR));
 const upload = multer({ dest: path.join(BASE_DIR, 'uploads') });
 
 // Helper: Read registry
@@ -74,7 +76,7 @@ app.get('/api/registry/:type/:name', (req, res) => {
     type,
     version: ver,
     description: pkg.description || '',
-    downloadUrl: `https://toling.me/packages/${type}/${name}-${ver}.tar.gz`,
+    downloadUrl: `http://localhost:3000/packages/${type}/${name}-${ver}.tar.gz`,
     latestVersion: pkg.latestVersion,
     versions: Object.keys(pkg.versions || {}).sort().reverse()
   });

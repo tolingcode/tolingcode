@@ -1,7 +1,7 @@
 {
   "name": "tolingcode",
-  "version": "2026.03.08-3",
-  "description": "TolingCode CLI - Install skills and apps from toling.me",
+  "version": "2026.3.9",
+  "description": "TolingCode CLI - 跨境电商 AI 助手技能管理工具 (基于 OpenClaw)",
   "main": "bin/tolingcode.js",
   "files": [
     "bin",
@@ -21,10 +21,13 @@
   "author": "TolingCode",
   "license": "MIT",
   "dependencies": {
-    "commander": "^11.0.0",
-    "chalk": "^4.1.2",
-    "ora": "^5.4.1",
     "axios": "^1.6.0",
+    "chalk": "^4.1.2",
+    "commander": "^11.0.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "multer": "^2.1.1",
+    "ora": "^5.4.1",
     "tar": "^6.2.0"
   },
   "engines": {

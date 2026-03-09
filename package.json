@@ -1,6 +1,6 @@
 {
   "name": "tolingcode",
-  "version": "2026.3.10",
+  "version": "2026.3.11",
   "description": "TolingCode CLI - 跨境电商 AI 助手技能管理工具 (基于 OpenClaw)",
   "main": "bin/tolingcode.js",
   "files": [
